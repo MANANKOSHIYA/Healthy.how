@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <!-- Strat Home -->
+    <main>
+        <!-- Strat Banner -->
+        <section>
+            <div class="Main">
+                <div class="container">
+                    <div class="row">
+                        <div class="w-3">
+                            <div class="HomeBanner">
+                                <div class="HomebannerTitle">
+                                    <h1>
+                                        A healthier you
+                                        <br>
+                                        is just a
+                                        <b>Click</b>
+                                        Away
+                                    </h1>
+                                </div>
+                                <div clas="HomeBannerDetail">
+                                    <p>Fitmeet services is dedicated to bringing you & your family healthy,
+                                        delicious food options whenever you're at on of our location.</p>
+                                </div>
+
+                                <div class="HomeBannerButton">
+                                    <a href="">
+                                        <button>Get Healthy</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-3">
+                            <div class="Banner-bg-img">
+                                <div class="nurse">
+                                    <img src="../../../assets/image/Home/nurse.png" alt="nurse" class="img-div">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Banner -->
+
+
+        <!-- Start why Us? -->
+
+        <section>
+            <div class="Main">
+                <div class="container">
+                    <div class="row">
+                        <div class="w-1 mar-bot ">
+                            <div class="whyUs">
+                                <div class="whyUs-contect">
+                                    <h1>
+                                        why
+                                        <span>us?</span>
+                                    </h1>
+                                    <p class="font-400">
+                                        Fitmeet services is dedicated to bringing you & your family healthy, delicious
+                                        food
+                                        options whenever you're at on of our location.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-4">
+                            <div>
+                                <div class="subcard">
+                                    <img src="../../../assets/image/Home/Vector.png" alt="Vector">
+                                </div>
+                                <div class="mainCard">
+                                    <div class="Card-font">
+                                        <h1>Physical health</h1>
+                                    </div>
+                                </div>
+                                <div class="card-Plus-Icon">
+                                    <div class="CardPlusIcon">
+                                        <img src="../../../assets/image/Home/Plus icon.png" alt="plus">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-4">
+                            <div>
+                                <div class="subcard">
+                                    <img src="../../../assets/image/Home/backet.png" alt="Vector">
+                                </div>
+                                <div class="mainCard">
+                                    <div class="Card-font">
+                                        <h1>Psychological <br /> wellness</h1>
+                                    </div>
+                                </div>
+                                <div class="card-Plus-Icon">
+                                    <div class="CardPlusIcon">
+                                        <img src="../../../assets/image/Home/equal icon.png" alt="plus">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-4">
+                            <div>
+                                <div class="subcard">
+                                    <img src="../../../assets/image/Home/heart.png" alt="Vector">
+                                </div>
+                                <div class="mainCard">
+                                    <div class="Card-font">
+                                        <h1>Healthy lifestyle</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- End why Us? -->
+
+
+        <!-- Start service -->
+
+        <Section>
+            <div class="Main">
+                <div class="container">
+                    <div class="row justify-content">
+                        <div class="w-1">
+                            <div class="servicePart">
+                                <div>
+                                    <h1>Select your current condition</h1>
+                                </div>
+                                <div>
+                                    <p>Get Personalised diet plan, medical consultation and get better at</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="w-4">
+                            <div class="selection">
+                                <div class="selectionCard">
+                                    <div class="set-img-text" (mouseover)="isChecked = true"
+                                        (mouseout)="isChecked = false">
+                                        <div>
+                                            <div class="round-box-div-check">
+                                                <input type="checkbox" id="checkbox" class="box-div-check2"
+                                                    [(ngModel)]="isChecked">
+                                                <label for="checkbox"></label>
+                                            </div>
+                                            <img src="../../../assets/image/Home/weight-manage.webp"
+                                                class="img-div-second">
+                                        </div>
+                                        <h1>Weight <br /> Management</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-4">
+                            <div class="selection">
+                                <div class="selectionCard">
+                                    <div class="set-img-text" (mouseover)="isCheckedsecond = true"
+                                        (mouseout)="isCheckedsecond = false">
+                                        <div>
+                                            <div class="round-box-div-check">
+                                                <input type="checkbox" id="checkbox" class="box-div-check2"
+                                                    [(ngModel)]="isCheckedsecond">
+                                                <label for="checkbox"></label>
+                                            </div>
+                                            <img src="../../../assets/image/Home/diabetes.webp" class="img-div-second">
+                                        </div>
+                                        <h1>Diabetes</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-4">
+                            <div class="selection">
+                                <div class="selectionCard">
+                                    <div class="set-img-text" (mouseover)="isCheckedfirst = true"
+                                        (mouseout)="isCheckedfirst = false">
+                                        <div>
+                                            <div class="round-box-div-check">
+                                                <input type="checkbox" id="checkbox" class="box-div-check2"
+                                                    [(ngModel)]="isCheckedfirst">
+                                                <label for="checkbox"></label>
+                                            </div>
+                                            <img src="../../../assets/image/Home/Depression.webp"
+                                                class="img-div-second">
+                                        </div>
+                                        <h1>Depression</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-1">
+                        <div class="servicebtn">
+                            <button class="service-btn">
+                                <a href="">Get Started</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </Section>
+
+        <!-- End service -->
+
+        <!-- Start Work Detail -->
+        <Section>
+            <div class="Main">
+                <div class="container">
+                    <div class="row justify-content">
+                        <div class="w-1">
+                            <div class="WorkDetail">
+                                <div class="WorkDetailTitle">
+                                    <h1>How it <span>works ?</span> </h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-1">
+                            <div class="work-card">
+
+                                <!-- 1 -->
+                                <div class="work-card-set">
+                                    <div class="main-work-card">
+                                        <div class="work-card-img">
+                                            <img src="../../../assets/image/Home/Step-1.webp">
+                                        </div>
+                                        <div class="work-card-text">
+                                            <div class="card-step">
+                                                <div class="steptitle">
+                                                    <h1>Step</h1>
+                                                </div>
+                                                <div class="stepnumber">
+                                                    <h1>1</h1>
+                                                </div>
+                                            </div>
+                                            <div class="card-detail">
+                                                <h1>Select your condition
+                                                    (physical, or mental)</h1>
+                                            </div>
+                                            <div class="card-more">
+                                                <h1>Know more ></h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 2 -->
+                                <div class="work-card-set">
+                                    <div class="main-work-card">
+                                        <div class="work-card-img">
+                                            <img src="../../../assets/image/Home/Step-2.webp">
+                                        </div>
+                                        <div class="work-card-text">
+                                            <div class="card-step">
+                                                <div class="steptitle">
+                                                    <h1>Step</h1>
+                                                </div>
+                                                <div class="stepnumber">
+                                                    <h1>2</h1>
+                                                </div>
+                                            </div>
+                                            <div class="card-detail">
+                                                <h1>Answer some short questions</h1>
+                                            </div>
+                                            <div class="card-more">
+                                                <h1>Know more ></h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 3 -->
+                                <div class="work-card-set">
+                                    <div class="main-work-card">
+                                        <div class="work-card-img">
+                                            <img src="../../../assets/image/Home/Step-3.webp">
+                                        </div>
+                                        <div class="work-card-text">
+                                            <div class="card-step">
+                                                <div class="steptitle">
+                                                    <h1>Step</h1>
+                                                </div>
+                                                <div class="stepnumber">
+                                                    <h1>3</h1>
+                                                </div>
+                                            </div>
+                                            <div class="card-detail">
+                                                <h1>We provide a personal diet plan suited to your needs</h1>
+                                            </div>
+                                            <div class="card-more">
+                                                <h1>Know more ></h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 4 -->
+                                <div class="work-card-set">
+                                    <div class="main-work-card">
+                                        <div class="work-card-img">
+                                            <img src="../../../assets/image/Home/Step-4.webp">
+                                        </div>
+                                        <div class="work-card-text">
+                                            <div class="card-step">
+                                                <div class="steptitle">
+                                                    <h1>Step</h1>
+                                                </div>
+                                                <div class="stepnumber">
+                                                    <h1>4</h1>
+                                                </div>
+                                            </div>
+                                            <div class="card-detail">
+                                                <h1>Apply the plan on your lifestyle</h1>
+                                            </div>
+                                            <div class="card-more">
+                                                <h1>Know more ></h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 5 -->
+                                <div class="work-card-set">
+                                    <div class="main-work-card">
+                                        <div class="work-card-img">
+                                            <img src="../../../assets/image/Home/Step-5.webp">
+                                        </div>
+                                        <div class="work-card-text">
+                                            <div class="card-step">
+                                                <div class="steptitle">
+                                                    <h1>Step</h1>
+                                                </div>
+                                                <div class="stepnumber">
+                                                    <h1>5</h1>
+                                                </div>
+                                            </div>
+                                            <div class="card-detail">
+                                                <h1>See results!</h1>
+                                            </div>
+                                            <div class="card-more">
+                                                <h1>Know more ></h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </Section>
+        <!-- End Work Detail -->
+
+
+        <!-- Start slider -->
+        <section>
+            <div class="Main">
+                <div class="container">
+                    <div class="w-1">
+                        <div class="slider">
+                            <div class="slider-img">
+                                <img src="../../../assets/image/Home/slider1.webp" alt="slider1">
+                            </div>
+                            <div class="slider-detail">
+                                <div class="slider-detail-title">
+                                    <h1>
+                                        See, how you can check calories...
+                                    </h1>
+                                </div>
+                                <div class="slider-detail-info">
+                                    <p>
+                                        Quibusdam explicabo voluptatem ab.
+                                        Impedit delectus qui voluptatem.
+                                        Adipisci deleniti necessitatibus sit
+                                        eum fugiat voluptas labore eveniet et.
+                                    </p>
+                                </div>
+                                <div class="slider-detail-btn">
+                                    <button>
+                                        <a href="#">Read more</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="w-1">
+                        <div class="slider">
+                            <div class="slider-img">
+                                <img src="../../../assets/image/Home/slider2.webp" alt="slider2">
+                            </div>
+                            <div class="slider-detail">
+                                <div class="slider-detail-title">
+                                    <h1>
+                                        Why diets fail everytime?
+                                    </h1>
+                                </div>
+                                <div class="slider-detail-info">
+                                    <p>
+                                        Quibusdam explicabo voluptatem ab.
+                                        Impedit delectus qui voluptatem.
+                                        Adipisci deleniti necessitatibus sit
+                                        eum fugiat voluptas labore eveniet et.
+                                    </p>
+                                </div>
+                                <div class="slider-detail-btn">
+                                    <button>
+                                        <a href="#">Get Started</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-1">
+                        <div class="slider">
+                            <div class="slider-img">
+                                <img src="../../../assets/image/Home/slider3.webp" alt="slider3">
+                            </div>
+                            <div class="slider-detail">
+                                <div class="slider-detail-title">
+                                    <h1>
+                                        Why weightloss alone isn't enough?
+                                    </h1>
+                                </div>
+                                <div class="slider-detail-info">
+                                    <p>
+                                        Quibusdam explicabo voluptatem ab.
+                                        Impedit delectus qui voluptatem.
+                                        Adipisci deleniti necessitatibus sit
+                                        eum fugiat voluptas labore eveniet et.
+                                    </p>
+                                </div>
+                                <div class="slider-detail-btn">
+                                    <button>
+                                        <a href="#">Read more</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End slider -->
+
+        <section>
+            <div class="box">
+                
+            </div>
+        </section>
+    </main>
+    <!-- End Home -->
+</body>
+
+</html>
